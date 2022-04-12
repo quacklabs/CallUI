@@ -10,6 +10,13 @@
 		DE5170B52806142600BC3A82 /* CallUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5170AB2806142500BC3A82 /* CallUI.framework */; };
 		DE5170BA2806142600BC3A82 /* CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170B92806142600BC3A82 /* CallUITests.swift */; };
 		DE5170BC2806142600BC3A82 /* CallUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5170AE2806142500BC3A82 /* CallUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5170CC280614BC00BC3A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170CB280614BC00BC3A82 /* AppDelegate.swift */; };
+		DE5170CE280614BC00BC3A82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170CD280614BC00BC3A82 /* SceneDelegate.swift */; };
+		DE5170D0280614BC00BC3A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170CF280614BC00BC3A82 /* ViewController.swift */; };
+		DE5170D3280614BC00BC3A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5170D1280614BC00BC3A82 /* Main.storyboard */; };
+		DE5170D5280614C300BC3A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5170D4280614C300BC3A82 /* Assets.xcassets */; };
+		DE5170D8280614C300BC3A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5170D6280614C300BC3A82 /* LaunchScreen.storyboard */; };
+		DE5170E3280614C400BC3A82 /* CallUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170E2280614C400BC3A82 /* CallUIExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +27,13 @@
 			remoteGlobalIDString = DE5170AA2806142500BC3A82;
 			remoteInfo = CallUI;
 		};
+		DE5170DF280614C400BC3A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5170A22806142500BC3A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5170C8280614BC00BC3A82;
+			remoteInfo = CallUIExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +43,17 @@
 		DE5170B42806142600BC3A82 /* CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5170B92806142600BC3A82 /* CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUITests.swift; sourceTree = "<group>"; };
 		DE5170BB2806142600BC3A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5170C9280614BC00BC3A82 /* CallUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5170CB280614BC00BC3A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE5170CD280614BC00BC3A82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE5170CF280614BC00BC3A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE5170D2280614BC00BC3A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5170D4280614C300BC3A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5170D7280614C300BC3A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE5170D9280614C300BC3A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5170DE280614C400BC3A82 /* CallUIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallUIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5170E2280614C400BC3A82 /* CallUIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUIExampleTests.swift; sourceTree = "<group>"; };
+		DE5170E4280614C400BC3A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE5170C6280614BC00BC3A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5170DB280614C400BC3A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +94,8 @@
 			children = (
 				DE5170AD2806142500BC3A82 /* CallUI */,
 				DE5170B82806142600BC3A82 /* CallUITests */,
+				DE5170CA280614BC00BC3A82 /* CallUIExample */,
+				DE5170E1280614C400BC3A82 /* CallUIExampleTests */,
 				DE5170AC2806142500BC3A82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +105,8 @@
 			children = (
 				DE5170AB2806142500BC3A82 /* CallUI.framework */,
 				DE5170B42806142600BC3A82 /* CallUITests.xctest */,
+				DE5170C9280614BC00BC3A82 /* CallUIExample.app */,
+				DE5170DE280614C400BC3A82 /* CallUIExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +127,29 @@
 				DE5170BB2806142600BC3A82 /* Info.plist */,
 			);
 			path = CallUITests;
+			sourceTree = "<group>";
+		};
+		DE5170CA280614BC00BC3A82 /* CallUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				DE5170CB280614BC00BC3A82 /* AppDelegate.swift */,
+				DE5170CD280614BC00BC3A82 /* SceneDelegate.swift */,
+				DE5170CF280614BC00BC3A82 /* ViewController.swift */,
+				DE5170D1280614BC00BC3A82 /* Main.storyboard */,
+				DE5170D4280614C300BC3A82 /* Assets.xcassets */,
+				DE5170D6280614C300BC3A82 /* LaunchScreen.storyboard */,
+				DE5170D9280614C300BC3A82 /* Info.plist */,
+			);
+			path = CallUIExample;
+			sourceTree = "<group>";
+		};
+		DE5170E1280614C400BC3A82 /* CallUIExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5170E2280614C400BC3A82 /* CallUIExampleTests.swift */,
+				DE5170E4280614C400BC3A82 /* Info.plist */,
+			);
+			path = CallUIExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +202,41 @@
 			productReference = DE5170B42806142600BC3A82 /* CallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DE5170C8280614BC00BC3A82 /* CallUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5170E5280614C400BC3A82 /* Build configuration list for PBXNativeTarget "CallUIExample" */;
+			buildPhases = (
+				DE5170C5280614BC00BC3A82 /* Sources */,
+				DE5170C6280614BC00BC3A82 /* Frameworks */,
+				DE5170C7280614BC00BC3A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallUIExample;
+			productName = CallUIExample;
+			productReference = DE5170C9280614BC00BC3A82 /* CallUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5170DD280614C400BC3A82 /* CallUIExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5170E8280614C400BC3A82 /* Build configuration list for PBXNativeTarget "CallUIExampleTests" */;
+			buildPhases = (
+				DE5170DA280614C400BC3A82 /* Sources */,
+				DE5170DB280614C400BC3A82 /* Frameworks */,
+				DE5170DC280614C400BC3A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5170E0280614C400BC3A82 /* PBXTargetDependency */,
+			);
+			name = CallUIExampleTests;
+			productName = CallUIExampleTests;
+			productReference = DE5170DE280614C400BC3A82 /* CallUIExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +252,13 @@
 					};
 					DE5170B32806142600BC3A82 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					DE5170C8280614BC00BC3A82 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DE5170DD280614C400BC3A82 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DE5170C8280614BC00BC3A82;
 					};
 				};
 			};
@@ -169,6 +277,8 @@
 			targets = (
 				DE5170AA2806142500BC3A82 /* CallUI */,
 				DE5170B32806142600BC3A82 /* CallUITests */,
+				DE5170C8280614BC00BC3A82 /* CallUIExample */,
+				DE5170DD280614C400BC3A82 /* CallUIExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +292,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DE5170B22806142600BC3A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5170C7280614BC00BC3A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5170D8280614C300BC3A82 /* LaunchScreen.storyboard in Resources */,
+				DE5170D5280614C300BC3A82 /* Assets.xcassets in Resources */,
+				DE5170D3280614BC00BC3A82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5170DC280614C400BC3A82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +333,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE5170C5280614BC00BC3A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5170D0280614BC00BC3A82 /* ViewController.swift in Sources */,
+				DE5170CC280614BC00BC3A82 /* AppDelegate.swift in Sources */,
+				DE5170CE280614BC00BC3A82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5170DA280614C400BC3A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5170E3280614C400BC3A82 /* CallUIExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +359,31 @@
 			target = DE5170AA2806142500BC3A82 /* CallUI */;
 			targetProxy = DE5170B62806142600BC3A82 /* PBXContainerItemProxy */;
 		};
+		DE5170E0280614C400BC3A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5170C8280614BC00BC3A82 /* CallUIExample */;
+			targetProxy = DE5170DF280614C400BC3A82 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE5170D1280614BC00BC3A82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5170D2280614BC00BC3A82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5170D6280614C300BC3A82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5170D7280614C300BC3A82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE5170BD2806142600BC3A82 /* Debug */ = {
@@ -421,6 +590,86 @@
 			};
 			name = Release;
 		};
+		DE5170E6280614C400BC3A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = CallUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-hk.CallUIExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5170E7280614C400BC3A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = CallUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-hk.CallUIExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE5170E9280614C400BC3A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = CallUIExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-hk.CallUIExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallUIExample.app/CallUIExample";
+			};
+			name = Debug;
+		};
+		DE5170EA280614C400BC3A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = CallUIExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-hk.CallUIExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallUIExample.app/CallUIExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +696,24 @@
 			buildConfigurations = (
 				DE5170C32806142600BC3A82 /* Debug */,
 				DE5170C42806142600BC3A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5170E5280614C400BC3A82 /* Build configuration list for PBXNativeTarget "CallUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5170E6280614C400BC3A82 /* Debug */,
+				DE5170E7280614C400BC3A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5170E8280614C400BC3A82 /* Build configuration list for PBXNativeTarget "CallUIExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5170E9280614C400BC3A82 /* Debug */,
+				DE5170EA280614C400BC3A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
