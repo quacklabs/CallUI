@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7739931C2838ED3F007BCD98 /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7739931B2838ED3F007BCD98 /* CallService.swift */; };
+		7739931E2838F2C2007BCD98 /* CallProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7739931D2838F2C2007BCD98 /* CallProvider.swift */; };
+		773993202838F81F007BCD98 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7739931F2838F81F007BCD98 /* Call.swift */; };
 		DE5170B52806142600BC3A82 /* CallUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5170AB2806142500BC3A82 /* CallUI.framework */; };
 		DE5170BA2806142600BC3A82 /* CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5170B92806142600BC3A82 /* CallUITests.swift */; };
 		DE5170BC2806142600BC3A82 /* CallUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5170AE2806142500BC3A82 /* CallUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7739931B2838ED3F007BCD98 /* CallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallService.swift; sourceTree = "<group>"; };
+		7739931D2838F2C2007BCD98 /* CallProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallProvider.swift; sourceTree = "<group>"; };
+		7739931F2838F81F007BCD98 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		DE5170AB2806142500BC3A82 /* CallUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CallUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5170AE2806142500BC3A82 /* CallUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallUI.h; sourceTree = "<group>"; };
 		DE5170AF2806142500BC3A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7739931A2838EC1A007BCD98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7739931B2838ED3F007BCD98 /* CallService.swift */,
+				7739931D2838F2C2007BCD98 /* CallProvider.swift */,
+				7739931F2838F81F007BCD98 /* Call.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		DE5170A12806142500BC3A82 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +130,7 @@
 		DE5170AD2806142500BC3A82 /* CallUI */ = {
 			isa = PBXGroup;
 			children = (
+				7739931A2838EC1A007BCD98 /* Sources */,
 				DE5170AE2806142500BC3A82 /* CallUI.h */,
 				DE5170AF2806142500BC3A82 /* Info.plist */,
 			);
@@ -244,11 +261,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "Code HK";
 				TargetAttributes = {
 					DE5170AA2806142500BC3A82 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1330;
 					};
 					DE5170B32806142600BC3A82 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -322,6 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7739931E2838F2C2007BCD98 /* CallProvider.swift in Sources */,
+				773993202838F81F007BCD98 /* Call.swift in Sources */,
+				7739931C2838ED3F007BCD98 /* CallService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +433,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -475,6 +497,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -509,6 +532,7 @@
 		DE5170C02806142600BC3A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
@@ -525,6 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-hk.CallUI";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,6 +558,7 @@
 		DE5170C12806142600BC3A82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
@@ -557,6 +583,7 @@
 		DE5170C32806142600BC3A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
 				INFOPLIST_FILE = CallUITests/Info.plist;
@@ -575,6 +602,7 @@
 		DE5170C42806142600BC3A82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
 				INFOPLIST_FILE = CallUITests/Info.plist;
