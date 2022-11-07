@@ -16,10 +16,9 @@ class CallProvider: NSObject {
     override init() {
         super.init()
     }
-    
-    
+
     func call(id: UUID) -> Call? {
-        return self.calls.first(where: { $0.id == id.uuidString })
+        return self.calls.first(where: { $0.uuid == id.uuidString })
     }
 }
 
